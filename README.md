@@ -2,7 +2,7 @@
 
 This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ).
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 - Live Site URL:
 

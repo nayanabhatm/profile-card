@@ -81,11 +81,6 @@ ul {
   margin: 5%;
 }
 
-li {
-  padding: 3%;
-  margin: 5%;
-}
-
 @media screen and (min-width: 1000px) {
   .details {
     padding-top: 8vh;
