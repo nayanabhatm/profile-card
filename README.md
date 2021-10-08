@@ -4,7 +4,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ![](./screenshot.png)
 
-- Live Site URL:
+- Live Site URL:https://nayanabhatm.github.io/profile-card/
 
 ## My process
 
