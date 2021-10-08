@@ -1,0 +1,112 @@
+:root {
+  --cyan: hsl(185, 75%, 39%);
+  --desaturated-blue: hsl(229, 23%, 23%);
+  --grayish-blue: hsl(227, 10%, 46%);
+  --gray: hsl(0, 0%, 59%);
+  --font-kumbh-sans: "Kumbh Sans", sans-serif;
+}
+
+body {
+  text-align: center;
+  margin: 5%;
+  background-color: var(--cyan);
+  overflow: hidden;
+  font-family: var(--font-kumbh-sans);
+  font-size: 1rem;
+}
+
+h2 {
+  color: var(--desaturated-blue);
+}
+
+p {
+  color: var(--gray);
+}
+
+span {
+  color: var(--gray);
+  font-weight: 400;
+}
+
+.bkg-top {
+  max-height: 100vh;
+  position: absolute;
+  top: -30%;
+  left: -50%;
+  transform: rotate(80deg);
+  z-index: -1;
+}
+
+.bkg-bottom {
+  max-height: 100vh;
+  position: absolute;
+  bottom: -80%;
+  right: -80%;
+  z-index: -1;
+}
+
+.bg-pattern-img {
+  background-image: url("images/bg-pattern-card.svg");
+  border-radius: 20px 20px 0 0;
+  position: relative;
+  height: 150px;
+}
+
+.content img {
+  border-radius: 50%;
+  position: relative;
+  top: 60%;
+  border: 5px solid white;
+}
+
+/* details */
+.details {
+  padding-top: 10vh;
+  background-color: white;
+  border-radius: 0 0 20px 20px;
+}
+
+.details h2 {
+  margin: 0;
+}
+
+/* Likes and followers */
+
+ul {
+  padding: 0%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 5%;
+}
+
+li {
+  padding: 3%;
+  margin: 5%;
+}
+
+@media screen and (min-width: 1000px) {
+  .details {
+    padding-top: 8vh;
+  }
+
+  body {
+    margin: 20% 30%;
+  }
+
+  .bkg-top {
+    max-height: 100vh;
+    position: absolute;
+    top: -30%;
+    left: -15%;
+    transform: rotate(150deg);
+  }
+
+  .bkg-bottom {
+    max-height: 100vh;
+    position: absolute;
+    bottom: -40%;
+    right: -20%;
+  }
+}
